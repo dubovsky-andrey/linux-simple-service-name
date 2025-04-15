@@ -1,0 +1,12 @@
+[Unit]
+Description=Autorun service-name Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/sbin/service-name.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
