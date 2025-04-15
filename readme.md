@@ -1,6 +1,8 @@
 1. Create file in systemd directory
 
+```
    sudo nano /etc/systemd/system/service-name.service
+```
 
 2. Create file in sbin directory
 
